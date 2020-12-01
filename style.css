@@ -3,10 +3,10 @@ body{
 }
 
 header{
-    width: 100%;
+    width: 80%;
     margin-right: auto;
     margin-left: auto;
-    background-color: #ffffff;  
+    background-color: #375f95;  
     padding: 10px;
     overflow: hidden;
 }
@@ -19,10 +19,9 @@ header h1{
     }
 
 header nav{
-    width: 40%;
+    width: 60%;
     float:right;
     font-size: 25px
-   
 }
 nav ul{
     list-style-type: none;
@@ -30,11 +29,10 @@ nav ul{
 nav ul li{
     display:  inline;
     float: left;
-     text-align: left;
     margin: 20px;
 }
 nav ul li a{
-    color: #5d0f0f;
+    color: white;
     text-decoration: none;
 }
 
@@ -47,25 +45,37 @@ section {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-    border: 5px solid #ffffff;
+    border: 5px solid #a8a8a8;
     padding: 5px;
    
 }
 
 footer{
-     width: 100%;
+     width: 80%;
     margin-right: auto;
     margin-left: auto;
     margin-top: 0;
     padding:10px;
-    background-color: #c79f9f;
+    background-color: #a8a8a8;
     color:white;
     text-align: : center;
     
 }
 
+ul{
+    list-style-type: circle;
+}
 
+@font-face{
+    font-family: 나눔손글씨 나무정원;
+    src:url('나눔손글씨 나무정원.ttf');
+    font-weight: normal;}
 
+@font-face{
+    font-family: 나눔손글씨 소미체;
+    src:url('나눔손글씨 소미체.ttf');
+    font-weight: bold;
+}
 
 @font-face{
     font-family: 서울남산 장체L;
@@ -82,9 +92,86 @@ body{
     font-family: 서울남산 장체L;
 }
 
+.medium{
+    color: #7e5b55;
+    font-weight: bold;
+    font-size:xx-large;
+    word-spacing: 0.3em;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.small{
+     font-weight: bold;
+    font-family: 나눔손글씨 나무정원;
+    text-align: center
+    font-size: 50px;
+    word-spacing: 0.3em;
+
+}
+
+.large{
+    font-family:서울남산 장체L;
+    font-size:50px;
+    text-align: center;
+
+    letter-spacing: 0.3em;
+    
+
+}
+
+
+.xx-large{
+    font-family:서울남산 장체L;
+    font-size: large;
+    text-align: justify;
+    text-decoration: underline overline;
+    line-height: 170%;
+}
+
+h1{
+    font-variant: : small-caps;
+    text-align:center;
+}
 
 
 
+
+.shadow1{
+    text-shadow: 1px 1px 8px #ffcfa6;
+}
+
+.shadow2{
+    text-shadow:  0px -5px 4px #ffbea1, 2px -10px 6px #aa8675, 2px -20px 19px #ff9191
+}
+
+
+
+
+table{
+    width 800px;
+    border: 0px solid white;
+    margin:auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px
+}
+td{
+    border:1px solid whote;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+   
+
+a{
+    text-decoration: none;
+    color:black;
+}
 
 
 
